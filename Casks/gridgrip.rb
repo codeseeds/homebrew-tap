@@ -7,7 +7,7 @@ cask "gridgrip" do
   desc "Move, resize and snap windows with the mouse and keyboard"
   homepage "https://github.com/codeseeds/gridgrip"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "GridGrip.app"
 
